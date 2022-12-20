@@ -103,7 +103,7 @@ public abstract class Animal extends Organism implements Movable, Eating {
                     String keyFood = entry.getKey();
                     Integer probably = entry.getValue();
                     var foods = currentLocation.getResidents().get(keyFood);
-                    if(Objects.nonNull(foods)) {
+                    if(foods !=null) {
                         if (foods.size() > 0 && probably > Randomizer.random(0, 100)) {
                             for (Iterator<Organism> organismIterator = foods.iterator(); organismIterator.hasNext(); ) {
                                 Organism o = organismIterator.next();

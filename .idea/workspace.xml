@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2841b09-e501-4cc6-98f5-d156370430e1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/Setting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/Setting.java" afterDir="false" />
-    </list>
+    <list default="true" id="a2841b09-e501-4cc6-98f5-d156370430e1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,15 +39,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/JAVA/Java_Project_Ridermix/island_november/ua.com.javarush.november.aleev.island/src/main/java/ua/com/aleev/island",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JAVA/Java_Project_Ridermix/island_november/ua.com.javarush.november.aleev.island/src/main/java/ua/com/aleev/island&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JAVA\Java_Project_Ridermix\island_november\ua.com.javarush.november.aleev.island\src\main\java\ua\com\aleev\island" />
@@ -98,6 +96,7 @@
       <workItem from="1671436967992" duration="829000" />
       <workItem from="1671437826149" duration="269000" />
       <workItem from="1671529426765" duration="9401000" />
+      <workItem from="1671556114680" duration="471000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1671264366796</created>
@@ -134,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671539536574</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- [*] implement property&#10;- [*] implement animal hierarchy (first step - for five Organism)&#10;- [*] implement actions&#10;- [*] implement Randomizer&#10;- [*] implement factory &#10;- [*] implement services (workers)&#10;- [*] implements View">
+      <created>1671556292796</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671556292796</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
