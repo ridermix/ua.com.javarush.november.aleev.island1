@@ -2,7 +2,6 @@ package ua.com.aleev.island.factory;
 
 import ua.com.aleev.island.entity.map.GameMap;
 import ua.com.aleev.island.entity.map.Location;
-
 import java.util.List;
 
 public class GameMapCreator {

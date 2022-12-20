@@ -4,7 +4,6 @@ import ua.com.aleev.island.entity.map.GameMap;
 import ua.com.aleev.island.entity.map.Location;
 import ua.com.aleev.island.entity.organism.Organism;
 import ua.com.aleev.island.entity.organism.animal.Animal;
-
 import java.util.Queue;
 import java.util.Set;
 import java.util.concurrent.ConcurrentLinkedQueue;

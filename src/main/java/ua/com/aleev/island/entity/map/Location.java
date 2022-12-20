@@ -2,7 +2,6 @@ package ua.com.aleev.island.entity.map;
 
 import ua.com.aleev.island.entity.organism.Organism;
 import ua.com.aleev.island.util.Randomizer;
-
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;

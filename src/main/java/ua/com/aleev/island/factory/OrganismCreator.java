@@ -2,7 +2,6 @@ package ua.com.aleev.island.factory;
 
 import ua.com.aleev.island.entity.organism.Organism;
 import ua.com.aleev.island.exception.GameException;
-
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 

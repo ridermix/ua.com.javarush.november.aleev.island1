@@ -3,7 +3,6 @@ package ua.com.aleev.island.services;
 import ua.com.aleev.island.entity.Game;
 import ua.com.aleev.island.exception.GameException;
 import ua.com.aleev.island.property.Setting;
-
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

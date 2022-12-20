@@ -1,7 +1,6 @@
 package ua.com.aleev.island.services;
 
 import ua.com.aleev.island.entity.organism.Organism;
-
 import java.util.function.Consumer;
 
 public class Task {

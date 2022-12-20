@@ -4,14 +4,11 @@ import ua.com.aleev.island.entity.map.Location;
 import ua.com.aleev.island.entity.organism.Organism;
 import ua.com.aleev.island.property.Setting;
 import ua.com.aleev.island.util.Randomizer;
-
 import java.util.*;
 
 public class EntityFactory implements Factory {
 
     private static final Organism[] PROTOTYPES = OrganismCreator.createPrototype(Setting.TYPES);
-
-
 
     public EntityFactory() {
     }
