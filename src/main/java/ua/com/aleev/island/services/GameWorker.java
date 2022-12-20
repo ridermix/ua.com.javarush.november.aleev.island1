@@ -20,7 +20,7 @@ public class GameWorker extends Thread {
 
     @Override
     public void run() {
-        //TO DO ScheduledTreadPool
+
         ScheduledExecutorService mainPool = Executors.newScheduledThreadPool(4);
 
         List<OrganismWorker> workers = game.getEntityFactory().getAllPrototypes()

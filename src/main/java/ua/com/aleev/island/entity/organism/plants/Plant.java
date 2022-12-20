@@ -4,8 +4,9 @@ import ua.com.aleev.island.entity.map.Location;
 import ua.com.aleev.island.entity.organism.Limit;
 import ua.com.aleev.island.entity.organism.Organism;
 import ua.com.aleev.island.property.Setting;
-import ua.com.aleev.island.util.Randomizer;
 
+import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 public class Plant extends Organism {
@@ -20,31 +21,30 @@ public class Plant extends Organism {
     }
 
     @Override
-    public boolean spawn(Location location) {
-        this.safeChangeWeight(location, Setting.PERCENT_PLANT_GROW);
-        boolean born = false;
-        for (int i = 0; i < 6; i++) {
-            Location neighborLocation = location.getNextLocations(Randomizer.random(0, 2));
-            born |= safePlantSpawn(neighborLocation);
-        }
-        return born;
+    public void spawn(Location currentLocation) {
+        Location nextLocation = currentLocation.getNextLocations(1);
+        safePlantSpawn(nextLocation);
     }
 
-    private boolean safePlantSpawn(Location currentLocation) {
-        Limit limit = getLimit();
+    private void safePlantSpawn(Location currentLocation) {
         currentLocation.getLock().lock();
         try {
             Set<Organism> plants = currentLocation.getResidents().get(this.getType());
 
-                if (plants.size() < limit.getMaxCount()) {
-                    Organism newPlant = Organism.clone(this);
-                    double childWeight = getWeight() / 10;
-                    newPlant.setWeight(childWeight);
-                    return plants.add(newPlant);
+            if(plants !=null){
+                if (plants.size() < this.getLimit().getMaxCount()) {
+                    Organism clone = this.clone();
+                    clone.setWeight(this.getLimit().getMaxWeight());
+                    plants.add(clone);
                 }
+            } else {
+                Map<String, Set<Organism>> residents = currentLocation.getResidents();
+                residents.put(this.getType(), new HashSet<>());
+                Set<Organism> organisms = residents.get(getType());
+                organisms.add(this);
+            }
         } finally {
             currentLocation.getLock().unlock();
         }
-        return false;
     }
 }

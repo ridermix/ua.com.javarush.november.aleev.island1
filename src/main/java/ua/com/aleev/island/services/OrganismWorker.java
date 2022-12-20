@@ -35,16 +35,22 @@ public class OrganismWorker implements Runnable {
         String type = prototype.getType();
         Set<Organism> organisms = location.getResidents().get(type);
         if (organisms != null) {
-            organisms.forEach(organism -> {
-                Task task = new Task(organism, o -> {
-                    o.spawn(location);
-                    if (organism instanceof Animal) {
-                        ((Animal) organism).eat(location);
-                        ((Animal) organism).move(location);
-                    }
+            location.getLock().lock();
+            try {
+
+                organisms.forEach(organism -> {
+                    Task task = new Task(organism, o -> {
+                        o.spawn(location);
+                        if (organism instanceof Animal) {
+                            ((Animal) organism).eat(location);
+                            ((Animal) organism).move(location);
+                        }
+                    });
+                    tasks.add(task);
                 });
-                tasks.add(task);
-            });
+            } finally {
+                location.getLock().unlock();
+            }
             tasks.forEach(Task::run);
             tasks.clear();
         }

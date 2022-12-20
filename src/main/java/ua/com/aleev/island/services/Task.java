@@ -15,6 +15,7 @@ public class Task {
     }
 
     public void run(){
+
         operation.accept(organism);
     }
 }

@@ -13,15 +13,15 @@ public class Setting {
 
     //General setting
     //Island setting
-    public static final int MAP_ROWS = 2;
-    public static final int MAP_COLS = 2;
+    public static final int MAP_ROWS = 5;
+    public static final int MAP_COLS = 5;
 
     public static final int PERIOD = 500;
 
     //Organisms settings
     public static final Class<?>[] TYPES = {Wolf.class, Horse.class, Caterpillar.class, Duck.class, Plant.class};
 
-    public static final int PERCENT_ANIMAL_SLIM = 5;
+    public static final int PERCENT_ANIMAL_SLIM = -5;
     public static final int PERCENT_PLANT_GROW = 15;
 
     //Wolf setting

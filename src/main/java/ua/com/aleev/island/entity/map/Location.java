@@ -14,7 +14,6 @@ import java.util.stream.Collectors;
 public class Location {
     private final Map<String, Set<Organism>> residents;
     private List<Location> nextLocation;
-
     private final Lock lock = new ReentrantLock(true);
 
     public Location(Map<String, Set<Organism>> residents) {
