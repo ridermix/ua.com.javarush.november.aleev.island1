@@ -4,40 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2841b09-e501-4cc6-98f5-d156370430e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/action/Eating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/action/Movable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/action/Reproducible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/map/GameMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/map/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/Limit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/Organism.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/carnivore/Carnivore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/carnivore/Wolf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/herbivore/Caterpillar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/herbivore/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/herbivore/Herbivore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/herbivore/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/plants/Plant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/exception/GameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/factory/EntityFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/factory/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/factory/GameMapCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/factory/OrganismCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/AnnimalsRation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/Setting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/services/GameWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/services/OrganismWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/services/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/util/Randomizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/view/ConsoleView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/view/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/ConsoleRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/ConsoleRunner.java" afterDir="false" />
-    </list>
+    <list default="true" id="a2841b09-e501-4cc6-98f5-d156370430e1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +24,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="ac4073bf-9209-4506-80a5-b271fa591206" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -125,7 +95,7 @@
       <workItem from="1671263494998" duration="2837000" />
       <workItem from="1671436967992" duration="829000" />
       <workItem from="1671437826149" duration="269000" />
-      <workItem from="1671529426765" duration="4837000" />
+      <workItem from="1671529426765" duration="5242000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1671264366796</created>
@@ -134,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671264366796</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- [ ] implement property&#10;- [ ] implement animal hierarchy (first step - for five Organism)&#10;- [ ] implement actions&#10;- [ ] implement Randomizer&#10;- [ ] implement factory &#10;- [ ] implement services (workers)&#10;- [ ] implements View">
+      <created>1671534293002</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671534293002</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- [*] implement property&#10;- [*] implement animal hierarchy (first step - for five Organism)&#10;- [*] implement actions&#10;- [*] implement Randomizer&#10;- [*] implement factory &#10;- [*] implement services (workers)&#10;- [*] implements View">
+      <created>1671534484801</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671534484801</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +126,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="- [ ] implement property&#10;- [ ] implement animal hierarchy (first step - for five Organism)&#10;- [ ] implement actions&#10;- [ ] implement Randomizer&#10;- [ ] implement factory &#10;- [ ] implement services (workers)&#10;- [ ] implements View" />
+    <MESSAGE value="- [*] implement property&#10;- [*] implement animal hierarchy (first step - for five Organism)&#10;- [*] implement actions&#10;- [*] implement Randomizer&#10;- [*] implement factory &#10;- [*] implement services (workers)&#10;- [*] implements View" />
+    <option name="LAST_COMMIT_MESSAGE" value="- [*] implement property&#10;- [*] implement animal hierarchy (first step - for five Organism)&#10;- [*] implement actions&#10;- [*] implement Randomizer&#10;- [*] implement factory &#10;- [*] implement services (workers)&#10;- [*] implements View" />
   </component>
 </project>
