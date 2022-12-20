@@ -16,7 +16,7 @@ public class Setting {
     public static final int MAP_ROWS = 5;
     public static final int MAP_COLS = 5;
 
-    public static final int PERIOD = 500;
+    public static final int PERIOD = 1000;
 
     //Organisms settings
     public static final Class<?>[] TYPES = {Wolf.class, Horse.class, Caterpillar.class, Duck.class, Plant.class};

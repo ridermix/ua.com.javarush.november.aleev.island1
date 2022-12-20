@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2841b09-e501-4cc6-98f5-d156370430e1" name="Changes" comment="- [*] implement property&#10;- [*] implement animal hierarchy (first step - for five Organism)&#10;- [*] implement actions&#10;- [*] implement Randomizer&#10;- [*] implement factory &#10;- [*] implement services (workers)&#10;- [*] implements View">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/action/Eating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/action/Eating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/action/Movable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/action/Movable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/action/Reproducible.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/action/Reproducible.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/map/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/map/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/Organism.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/Organism.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/plants/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/plants/Plant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/factory/EntityFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/factory/EntityFactory.java" afterDir="false" />
+    <list default="true" id="a2841b09-e501-4cc6-98f5-d156370430e1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/Setting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/Setting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/services/GameWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/services/GameWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/services/OrganismWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/services/OrganismWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/services/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/services/Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +97,7 @@
       <workItem from="1671263494998" duration="2837000" />
       <workItem from="1671436967992" duration="829000" />
       <workItem from="1671437826149" duration="269000" />
-      <workItem from="1671529426765" duration="9084000" />
+      <workItem from="1671529426765" duration="9401000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1671264366796</created>
@@ -139,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671534716449</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="- [*] implement property&#10;- [*] implement animal hierarchy (first step - for five Organism)&#10;- [*] implement actions&#10;- [*] implement Randomizer&#10;- [*] implement factory &#10;- [*] implement services (workers)&#10;- [*] implements View">
+      <created>1671539536574</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671539536574</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

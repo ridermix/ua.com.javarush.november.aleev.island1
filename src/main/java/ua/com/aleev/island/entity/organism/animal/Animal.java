@@ -111,7 +111,6 @@ public abstract class Animal extends Organism implements Movable, Eating {
                                 double delta = Math.min(foodWeight, needFood);
                                 double weight = getWeight();
                                 setWeight(Math.min(weight + delta, getLimit().getMaxWeight()));
-                                //o.setWeight(0);
                                 o.setWeight(foodWeight - delta);
                                 if (o.getWeight() <= 0) {
                                     organismIterator.remove();
