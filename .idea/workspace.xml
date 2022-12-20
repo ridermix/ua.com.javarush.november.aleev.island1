@@ -4,7 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2841b09-e501-4cc6-98f5-d156370430e1" name="Changes" comment="" />
+    <list default="true" id="a2841b09-e501-4cc6-98f5-d156370430e1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/action/Eating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/action/Movable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/action/Reproducible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/map/GameMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/map/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/Limit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/Organism.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/carnivore/Carnivore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/carnivore/Wolf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/herbivore/Caterpillar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/herbivore/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/herbivore/Herbivore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/herbivore/Horse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/plants/Plant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/exception/GameException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/factory/EntityFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/factory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/factory/GameMapCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/factory/OrganismCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/AnnimalsRation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/Setting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/services/GameWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/services/OrganismWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/services/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/util/Randomizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/view/ConsoleView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/view/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/ConsoleRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/ConsoleRunner.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +51,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -35,9 +73,27 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/JAVA/Java_Project_Ridermix/island_november/ua.com.javarush.november.aleev.island/src/main/java/ua/com/aleev/island",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA\Java_Project_Ridermix\island_november\ua.com.javarush.november.aleev.island\src\main\java\ua\com\aleev\island" />
+      <recent name="D:\JAVA\Java_Project_Ridermix\island_november\ua.com.javarush.november.aleev.island\src\main\java\ua\com\aleev\island\view" />
+      <recent name="D:\JAVA\Java_Project_Ridermix\island_november\ua.com.javarush.november.aleev.island\src\main\java\ua\com\aleev\island\service" />
+      <recent name="D:\JAVA\Java_Project_Ridermix\island_november\ua.com.javarush.november.aleev.island\src\main\java\ua\com\aleev\island\factory" />
+      <recent name="D:\JAVA\Java_Project_Ridermix\island_november\ua.com.javarush.november.aleev.island\src\main\java\ua\com\aleev\island\entity\organism" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ua.com.aleev.island.entity.map" />
+      <recent name="ua.com.aleev.island.entity.organism.plants" />
+      <recent name="ua.com.aleev.island.entity.organism" />
+      <recent name="ua.com.aleev.island.entity" />
+      <recent name="ua.com.aleev.island.util" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="ConsoleRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ua.com.aleev.island.ConsoleRunner" />
@@ -66,7 +122,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671263492673</updated>
-      <workItem from="1671263494998" duration="918000" />
+      <workItem from="1671263494998" duration="2837000" />
+      <workItem from="1671436967992" duration="829000" />
+      <workItem from="1671437826149" duration="269000" />
+      <workItem from="1671529426765" duration="4837000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1671264366796</created>
