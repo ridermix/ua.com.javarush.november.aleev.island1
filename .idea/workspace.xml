@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a2841b09-e501-4cc6-98f5-d156370430e1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/map/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/map/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/factory/EntityFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/factory/EntityFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/factory/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/factory/GameMapCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/factory/GameMapCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/factory/OrganismCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/factory/OrganismCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/services/GameWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/services/GameWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/services/OrganismWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/services/OrganismWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/services/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/services/Task.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="ac4073bf-9209-4506-80a5-b271fa591206" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2J25lq39hQLmjTeMTMxDoKByKYN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JAVA/Java_Project_Ridermix/island_november/ua.com.javarush.november.aleev.island/src/main/java/ua/com/aleev/island&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA\Java_Project_Ridermix\island_november\ua.com.javarush.november.aleev.island\src\main\java\ua\com\aleev\island" />
+      <recent name="D:\JAVA\Java_Project_Ridermix\island_november\ua.com.javarush.november.aleev.island\src\main\java\ua\com\aleev\island\view" />
+      <recent name="D:\JAVA\Java_Project_Ridermix\island_november\ua.com.javarush.november.aleev.island\src\main\java\ua\com\aleev\island\service" />
+      <recent name="D:\JAVA\Java_Project_Ridermix\island_november\ua.com.javarush.november.aleev.island\src\main\java\ua\com\aleev\island\factory" />
+      <recent name="D:\JAVA\Java_Project_Ridermix\island_november\ua.com.javarush.november.aleev.island\src\main\java\ua\com\aleev\island\entity\organism" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ua.com.aleev.island.entity.map" />
+      <recent name="ua.com.aleev.island.entity.organism.plants" />
+      <recent name="ua.com.aleev.island.entity.organism" />
+      <recent name="ua.com.aleev.island.entity" />
+      <recent name="ua.com.aleev.island.util" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ConsoleRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.com.aleev.island.ConsoleRunner" />
+      <module name="ua.com.javarush.november.aleev.island" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.com.aleev.island.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConsoleRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2841b09-e501-4cc6-98f5-d156370430e1" name="Changes" comment="" />
+      <created>1671263492673</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671263492673</updated>
+      <workItem from="1671263494998" duration="2837000" />
+      <workItem from="1671436967992" duration="829000" />
+      <workItem from="1671437826149" duration="269000" />
+      <workItem from="1671529426765" duration="9401000" />
+      <workItem from="1671556114680" duration="995000" />
+      <workItem from="1671558401594" duration="931000" />
+      <workItem from="1671559902879" duration="474000" />
+      <workItem from="1671560627396" duration="370000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1671264366796</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671264366796</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- [ ] implement property&#10;- [ ] implement animal hierarchy (first step - for five Organism)&#10;- [ ] implement actions&#10;- [ ] implement Randomizer&#10;- [ ] implement factory &#10;- [ ] implement services (workers)&#10;- [ ] implements View">
+      <created>1671534293002</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671534293002</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- [*] implement property&#10;- [*] implement animal hierarchy (first step - for five Organism)&#10;- [*] implement actions&#10;- [*] implement Randomizer&#10;- [*] implement factory &#10;- [*] implement services (workers)&#10;- [*] implements View">
+      <created>1671534484801</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671534484801</updated>
+    </task>
+    <task id="LOCAL-00004" summary="- [*] implement property&#10;- [*] implement animal hierarchy (first step - for five Organism)&#10;- [*] implement actions&#10;- [*] implement Randomizer&#10;- [*] implement factory &#10;- [*] implement services (workers)&#10;- [*] implements View">
+      <created>1671534716449</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671534716449</updated>
+    </task>
+    <task id="LOCAL-00005" summary="- [*] implement property&#10;- [*] implement animal hierarchy (first step - for five Organism)&#10;- [*] implement actions&#10;- [*] implement Randomizer&#10;- [*] implement factory &#10;- [*] implement services (workers)&#10;- [*] implements View">
+      <created>1671539536574</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671539536574</updated>
+    </task>
+    <task id="LOCAL-00006" summary="- [*] implement property&#10;- [*] implement animal hierarchy (first step - for five Organism)&#10;- [*] implement actions&#10;- [*] implement Randomizer&#10;- [*] implement factory &#10;- [*] implement services (workers)&#10;- [*] implements View">
+      <created>1671556292796</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671556292796</updated>
+    </task>
+    <task id="LOCAL-00007" summary="- [*] implement property&#10;- [*] implement animal hierarchy (first step - for five Organism)&#10;- [*] implement actions&#10;- [*] implement Randomizer&#10;- [*] implement factory &#10;- [*] implement services (workers)&#10;- [*] implements View">
+      <created>1671556788965</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671556788965</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <MESSAGE value="- [ ] implement property&#10;- [ ] implement animal hierarchy (first step - for five Organism)&#10;- [ ] implement actions&#10;- [ ] implement Randomizer&#10;- [ ] implement factory &#10;- [ ] implement services (workers)&#10;- [ ] implements View" />
+    <MESSAGE value="- [*] implement property&#10;- [*] implement animal hierarchy (first step - for five Organism)&#10;- [*] implement actions&#10;- [*] implement Randomizer&#10;- [*] implement factory &#10;- [*] implement services (workers)&#10;- [*] implements View" />
+    <option name="LAST_COMMIT_MESSAGE" value="- [*] implement property&#10;- [*] implement animal hierarchy (first step - for five Organism)&#10;- [*] implement actions&#10;- [*] implement Randomizer&#10;- [*] implement factory &#10;- [*] implement services (workers)&#10;- [*] implements View" />
+  </component>
+</project>
