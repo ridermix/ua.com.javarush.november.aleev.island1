@@ -15,11 +15,12 @@ public abstract class Organism implements Cloneable, Reproducible {
     private double weight;
     private Limit limit;
 
-    public Organism(String name, String icon, double weight, Limit limit) {
+    public Organism(String name, String icon, Limit limit) {
         this.name = name;
         this.icon = icon;
-        this.weight = weight;
+       // this.weight = weight;
         this.limit = limit;
+        weight = Randomizer.random(limit.getMaxWeight()/2,limit.getMaxWeight());
     }
 
     public long getId() {

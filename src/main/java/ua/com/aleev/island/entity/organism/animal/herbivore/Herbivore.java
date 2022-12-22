@@ -4,7 +4,7 @@ import ua.com.aleev.island.entity.organism.Limit;
 import ua.com.aleev.island.entity.organism.animal.Animal;
 
 public abstract class Herbivore extends Animal {
-    public Herbivore(String name, String icon, double weight, Limit limit) {
-        super(name, icon, weight, limit);
+    public Herbivore(String name, String icon, Limit limit) {
+        super(name, icon, limit);
     }
 }

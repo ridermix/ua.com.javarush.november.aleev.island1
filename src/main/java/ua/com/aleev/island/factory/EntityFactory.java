@@ -4,11 +4,14 @@ import ua.com.aleev.island.entity.map.Location;
 import ua.com.aleev.island.entity.organism.Organism;
 import ua.com.aleev.island.property.Setting;
 import ua.com.aleev.island.util.Randomizer;
+
 import java.util.*;
+
+import static ua.com.aleev.island.property.Setting.PROTOTYPES;
 
 public class EntityFactory implements Factory {
 
-    private static final Organism[] PROTOTYPES = OrganismCreator.createPrototype(Setting.TYPES);
+//    private static final Organism[] PROTOTYPES = OrganismCreator.createPrototype(SettingOld.TYPES);
 
     public EntityFactory() {
     }
@@ -18,7 +21,7 @@ public class EntityFactory implements Factory {
         Map<String, Set<Organism>> residents = new HashMap<>();
         boolean fill = Randomizer.get(50);
         if (fill) {
-            for (Organism prototype : PROTOTYPES) {
+            for (Organism prototype : Setting.PROTOTYPES) { //(Organism prototype : PROTOTYPES)
                 String type = prototype.getType();
                 boolean born = Randomizer.get(50);
                 if (born) {

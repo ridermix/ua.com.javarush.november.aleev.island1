@@ -1,16 +1,16 @@
 package ua.com.aleev.island.entity.organism.animal.herbivore;
 
+import ua.com.aleev.island.annotation.OrganismTypeData;
 import ua.com.aleev.island.entity.organism.Limit;
-import ua.com.aleev.island.entity.organism.Organism;
-import ua.com.aleev.island.property.Setting;
 
+@OrganismTypeData(name = "Horse", icon = "\uD83D\uDC0E", maxWeight = 400, maxCount = 20, maxSpeed = 4, maxFood = 60)
 public class Horse extends Herbivore {
-    public Horse(String name, String icon, double weight, Limit limit) {
-        super(name, icon, weight, limit);
+    public Horse(String name, String icon, Limit limit) {
+        super(name, icon, limit);
     }
 
-    public static Organism birth() {
-        return new Horse(Setting.HORSE_NAME, Setting.HORSE_ICON, Setting.HORSE_MAX_WEIGHT
-                , new Limit(Setting.HORSE_MAX_WEIGHT, Setting.HORSE_MAX_COUNT, Setting.HORSE_MAX_SPEED, Setting.HORSE_MAX_FOOD));
-    }
+//    public static Organism birth() {
+//        return new Horse(SettingOld.HORSE_NAME, SettingOld.HORSE_ICON, SettingOld.HORSE_MAX_WEIGHT
+//                , new Limit(SettingOld.HORSE_MAX_WEIGHT, SettingOld.HORSE_MAX_COUNT, SettingOld.HORSE_MAX_SPEED, SettingOld.HORSE_MAX_FOOD));
+//    }
 }

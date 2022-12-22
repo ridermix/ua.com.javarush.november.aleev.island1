@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
 
 public class GameWorker extends Thread {
     private final Game game;
+    private final int PERIOD = Setting.getSetting().getPeriod();
 
     public GameWorker(Game game) {
         this.game = game;
@@ -30,14 +31,14 @@ public class GameWorker extends Thread {
             workers.forEach(servicePool::submit);
             servicePool.shutdown();
             try {
-                if(servicePool.awaitTermination(Setting.PERIOD,TimeUnit.MILLISECONDS)){
+                if(servicePool.awaitTermination(PERIOD,TimeUnit.MILLISECONDS)){
                     game.getView().showGeneralStatistics();
                     game.getView().showStatistics();
                 }
             } catch (InterruptedException e) {
                 throw new GameException(e);
             }
-        }, Setting.PERIOD,Setting.PERIOD, TimeUnit.MILLISECONDS);
+        }, PERIOD, PERIOD, TimeUnit.MILLISECONDS);
 
 
     }

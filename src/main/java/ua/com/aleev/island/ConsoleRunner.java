@@ -14,10 +14,13 @@ public class ConsoleRunner {
     public static void main(String[] args) {
         Factory entityFactory = new EntityFactory();
         GameMapCreator gameMapCreator = new GameMapCreator(entityFactory);
-        GameMap gameMap = gameMapCreator.createRandomFilledGameMap(Setting.MAP_ROWS,Setting.MAP_COLS);
+        GameMap gameMap = gameMapCreator.createRandomFilledGameMap(Setting.getSetting().getRows(), Setting.getSetting().getCols());
         View view = new ConsoleView(gameMap);
         Game game = new Game(gameMap,entityFactory,view);
         GameWorker gameWorker = new GameWorker(game);
         gameWorker.start();
+
+//        System.out.println(Setting.getSetting().getCols());
+//        Setting.getSetting().toString();
     }
 }

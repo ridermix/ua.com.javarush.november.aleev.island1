@@ -1,0 +1,18 @@
+---
+rows: 5
+cols: 5
+period: 500
+percentAnimalSlim: -5;
+animalRationMap:
+  Wolf:
+    Horse: 50
+    Duck: 40
+  Horse:
+    Plant: 100
+  Duck:
+    Caterpillar: 90
+    Plant: 100
+  Caterpillar:
+    Plant: 100
+  Plant: {}
+

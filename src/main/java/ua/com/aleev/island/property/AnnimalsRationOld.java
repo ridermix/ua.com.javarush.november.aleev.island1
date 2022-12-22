@@ -1,6 +1,6 @@
 package ua.com.aleev.island.property;
 
-public class AnnimalsRation {
+public class AnnimalsRationOld {
     static final String[] names = {
             "Wolf", "Horse", "Duck", "Caterpillar",
             "Plant",

@@ -13,8 +13,8 @@ import java.util.*;
 public abstract class Animal extends Organism implements Movable, Eating {
 
 
-    public Animal(String name, String icon, double weight, Limit limit) {
-        super(name, icon, weight, limit);
+    public Animal(String name, String icon, Limit limit) {
+        super(name, icon, limit);
     }
 
     @Override
@@ -84,7 +84,7 @@ public abstract class Animal extends Organism implements Movable, Eating {
     public void eat(Location currentLocation) {
         if (safeFindFood(currentLocation)) {
         } else if (getWeight() > 0) {
-            safeChangeWeight(currentLocation, Setting.PERCENT_ANIMAL_SLIM);
+            safeChangeWeight(currentLocation, Setting.getSetting().getPercentAnimalSlim());
         } else {
             safeDie(currentLocation);
         }
