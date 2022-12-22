@@ -1,8 +1,8 @@
 package ua.com.aleev.island.property;
 
 public class DefaultSettings {
-    public static final int ROWS = 2;
-    public static final int COLS = 2;
+    public static final int ROWS = 5;
+    public static final int COLS = 5;
 
     public static final int PERIOD = 1000;
 

@@ -59,6 +59,11 @@ public class Setting {
             }
         }
     }
+//    public Map<String, Map<String, Integer>> getRationMap(String keyName){
+//        this.rationMap.putIfAbsent(keyName,new LinkedHashMap<>());
+//        return rationMap.get(keyName);
+//    }
+
 
     // INIT
     private Setting() {

@@ -18,6 +18,8 @@ public class ConsoleView implements View {
 
     @Override
     public void showStatistics() {
+
+        System.out.println("=".repeat(82));
         Location[][] locations = gameMap.getLocations();
         Map<String, Integer> map = new HashMap<>();
         for (Location[] row : locations) {
@@ -30,8 +32,8 @@ public class ConsoleView implements View {
                 map.clear();
             }
             System.out.println();
-
         }
+        System.out.println("=".repeat(82));
 
     }
 

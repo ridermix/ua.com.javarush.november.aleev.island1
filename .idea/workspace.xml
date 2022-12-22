@@ -4,28 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2841b09-e501-4cc6-98f5-d156370430e1" name="Changes" comment="Added OrganismTypeData annotation&#10;Modified OrganismCreator via using annotation&#10;Modified animals and plan classes&#10;Not complete Modified Setting for using yaml file with settings">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/annotation/OrganismTypeData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/DefaultSettings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/SettingOld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.yaml" afterDir="false" />
+    <list default="true" id="a2841b09-e501-4cc6-98f5-d156370430e1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/ConsoleRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/ConsoleRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/Organism.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/Organism.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/carnivore/Carnivore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/carnivore/Carnivore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/carnivore/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/carnivore/Wolf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/herbivore/Caterpillar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/herbivore/Caterpillar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/herbivore/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/herbivore/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/herbivore/Herbivore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/herbivore/Herbivore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/herbivore/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/herbivore/Horse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/plants/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/plants/Plant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/factory/EntityFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/factory/EntityFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/factory/OrganismCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/factory/OrganismCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/AnnimalsRation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/AnnimalsRationOld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/DefaultSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/DefaultSettings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/Setting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/Setting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/services/GameWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/services/GameWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/view/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/view/ConsoleView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +114,7 @@
       <workItem from="1671560627396" duration="2904000" />
       <workItem from="1671698714874" duration="8094000" />
       <workItem from="1671714074146" duration="4917000" />
-      <workItem from="1671729017063" duration="1816000" />
+      <workItem from="1671729017063" duration="3987000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1671264366796</created>
@@ -186,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671561027312</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added OrganismTypeData annotation&#10;Modified OrganismCreator via using annotation&#10;Modified animals and plan classes&#10;Added config.yaml&#10;Not complete Modified Setting for using yaml file with settings">
+      <created>1671730860654</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671730860654</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +190,7 @@
     <MESSAGE value="- [ ] implement property&#10;- [ ] implement animal hierarchy (first step - for five Organism)&#10;- [ ] implement actions&#10;- [ ] implement Randomizer&#10;- [ ] implement factory &#10;- [ ] implement services (workers)&#10;- [ ] implements View" />
     <MESSAGE value="- [*] implement property&#10;- [*] implement animal hierarchy (first step - for five Organism)&#10;- [*] implement actions&#10;- [*] implement Randomizer&#10;- [*] implement factory &#10;- [*] implement services (workers)&#10;- [*] implements View" />
     <MESSAGE value="updated imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated imports" />
+    <MESSAGE value="Added OrganismTypeData annotation&#10;Modified OrganismCreator via using annotation&#10;Modified animals and plan classes&#10;Added config.yaml&#10;Not complete Modified Setting for using yaml file with settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added OrganismTypeData annotation&#10;Modified OrganismCreator via using annotation&#10;Modified animals and plan classes&#10;Added config.yaml&#10;Not complete Modified Setting for using yaml file with settings" />
   </component>
 </project>
