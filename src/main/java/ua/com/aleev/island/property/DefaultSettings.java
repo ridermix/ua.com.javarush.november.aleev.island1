@@ -3,9 +3,7 @@ package ua.com.aleev.island.property;
 public class DefaultSettings {
     public static final int ROWS = 5;
     public static final int COLS = 5;
-
     public static final int PERIOD = 1000;
-
     public static final int PERCENT_ANIMAL_SLIM = -5;
 
 

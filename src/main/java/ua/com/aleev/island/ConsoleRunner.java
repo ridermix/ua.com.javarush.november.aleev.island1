@@ -16,11 +16,14 @@ public class ConsoleRunner {
         GameMapCreator gameMapCreator = new GameMapCreator(entityFactory);
         GameMap gameMap = gameMapCreator.createRandomFilledGameMap(Setting.getSetting().getRows(), Setting.getSetting().getCols());
         View view = new ConsoleView(gameMap);
-        Game game = new Game(gameMap,entityFactory,view);
+        Game game = new Game(gameMap, entityFactory, view);
         GameWorker gameWorker = new GameWorker(game);
-        gameWorker.start();
+//        gameWorker.start();
 
-//        System.out.println(Setting.getSetting().getCols());
-//        Setting.getSetting().toString();
+        Setting setting = new Setting();
+        setting.loadFromDefaultSetting();
+        System.out.println(setting);
+        setting.updateFromYaml();
+        System.out.println(setting);
     }
 }

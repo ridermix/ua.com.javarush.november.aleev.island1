@@ -55,9 +55,10 @@ public class ConsoleView implements View {
                 }
             }
         }
-        System.out.println("=".repeat(82));
+//        System.out.println("=".repeat(82));
         System.out.print(statistics + "\n");
-        System.out.println("=".repeat(82));
+        statistics.clear();
+//        System.out.println("=".repeat(82));
 
     }
 }

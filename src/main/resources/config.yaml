@@ -3,7 +3,7 @@ rows: 2
 cols: 2
 period: 500
 percentAnimalSlim: -5;
-animalRationMap:
+setProbablyTable:
   Wolf:
     Horse: 50
     Duck: 40

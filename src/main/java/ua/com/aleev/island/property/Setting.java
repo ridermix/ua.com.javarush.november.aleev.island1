@@ -14,6 +14,7 @@ import ua.com.aleev.island.entity.organism.plants.Plant;
 import ua.com.aleev.island.exception.GameException;
 import ua.com.aleev.island.factory.OrganismCreator;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.LinkedHashMap;
@@ -45,54 +46,55 @@ public class Setting {
     private int period;
     private int percentAnimalSlim;
 
-    public static final Map<String, Map<String, Integer>> rationMap = new LinkedHashMap<>();
-
-    static {
-        for (int i = 0, n = DefaultSettings.names.length; i < n; i++) {
-            String animalKey = DefaultSettings.names[i];
-            rationMap.putIfAbsent(animalKey, new LinkedHashMap<>());
-            for (int j = 0; j < n; j++) {
-                int ration = DefaultSettings.setProbablyTable[i][j];
-                if (ration > 0) {
-                    rationMap.get(animalKey).put(DefaultSettings.names[j], ration);
-                }
-            }
-        }
-    }
-//    public Map<String, Map<String, Integer>> getRationMap(String keyName){
-//        this.rationMap.putIfAbsent(keyName,new LinkedHashMap<>());
-//        return rationMap.get(keyName);
+//    public static final Map<String, Map<String, Integer>> rationMap = new LinkedHashMap<>();
+//
+//    static {
+//        for (int i = 0, n = DefaultSettings.names.length; i < n; i++) {
+//            String animalKey = DefaultSettings.names[i];
+//            rationMap.putIfAbsent(animalKey, new LinkedHashMap<>());
+//            for (int j = 0; j < n; j++) {
+//                int ration = DefaultSettings.setProbablyTable[i][j];
+//                if (ration > 0) {
+//                    rationMap.get(animalKey).put(DefaultSettings.names[j], ration);
+//                }
+//            }
+//        }
 //    }
+
+    private Map<String, Map<String, Integer>> rationMap = new LinkedHashMap<>();
+    public Map<String, Integer> getRationMap(String keyName) {
+        this.rationMap.putIfAbsent(keyName, new LinkedHashMap<>());
+        return rationMap.get(keyName);
+    }
 
 
     // INIT
-    private Setting() {
-        loadFromDefaultSetting();
-        updateFromYaml();
-    }
+//    private Setting() {
+//        loadFromDefaultSetting();
+//        updateFromYaml();
+//    }
 
-    private void loadFromDefaultSetting() {
+    public void loadFromDefaultSetting() {
         rows = DefaultSettings.ROWS;
         cols = DefaultSettings.COLS;
         period = DefaultSettings.PERIOD;
         percentAnimalSlim = DefaultSettings.PERCENT_ANIMAL_SLIM;
         for (int i = 0, n = DefaultSettings.names.length; i < n; i++) {
-            String key = DefaultSettings.names[i];
-            this.rationMap.putIfAbsent(key, new LinkedHashMap<>());
+            String keyName = DefaultSettings.names[i];
+            this.rationMap.putIfAbsent(keyName, new LinkedHashMap<>());
             for (int j = 0; j < n; j++) {
                 int ratio = DefaultSettings.setProbablyTable[i][j];
                 if (ratio > 0) {
-                    this.rationMap.get(key).put(DefaultSettings.names[j], ratio);
+                    this.rationMap.get(keyName).put(DefaultSettings.names[j], ratio);
                 }
             }
         }
     }
 
-    private void updateFromYaml() {
+    public void updateFromYaml() {
         URL resourse = Setting.class.getClassLoader().getResource(SETTING_YAML);
         ObjectMapper objectMapper = new ObjectMapper(new YAMLFactory());
         ObjectReader readerForUpdating = objectMapper.readerForUpdating(this);
-
 
         if (resourse != null) {
             try {
@@ -103,16 +105,7 @@ public class Setting {
         }
     }
 
-    @Override
-    public String toString() {
-        ObjectMapper yaml = new ObjectMapper(new YAMLFactory());
-        yaml.enable(SerializationFeature.INDENT_OUTPUT);
-        try {
-            return yaml.writeValueAsString(this);
-        } catch (JsonProcessingException e) {
-            throw new RuntimeException(e);
-        }
-    }
+
 
 
     public int getRows() {
@@ -147,5 +140,14 @@ public class Setting {
         this.percentAnimalSlim = percentAnimalSlim;
     }
 
-
+    @Override
+    public String toString() {
+        return "Setting{" +
+                "rows=" + rows +
+                ", cols=" + cols +
+                ", period=" + period +
+                ", percentAnimalSlim=" + percentAnimalSlim +
+                ", rationMap=" + rationMap +
+                '}';
+    }
 }

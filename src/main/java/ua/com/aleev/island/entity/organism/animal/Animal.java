@@ -96,7 +96,8 @@ public abstract class Animal extends Organism implements Movable, Eating {
             double needFood = getNeedFood();
             if (!(needFood <= 0)) {
                 Setting setting = Setting.getSetting();
-                var foodMap = Setting.rationMap.get(getType()).entrySet();
+//                var foodMap = Setting.rationMap.get(getType()).entrySet();
+                var foodMap = setting.getRationMap(getType()).entrySet();
 
                 var iterator = foodMap.iterator();
                 while (needFood > 0 && iterator.hasNext()) {

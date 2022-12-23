@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a2841b09-e501-4cc6-98f5-d156370430e1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/ConsoleRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/ConsoleRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/DefaultSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/DefaultSettings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/Setting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/Setting.java" afterDir="false" />
@@ -114,7 +115,9 @@
       <workItem from="1671560627396" duration="2904000" />
       <workItem from="1671698714874" duration="8094000" />
       <workItem from="1671714074146" duration="4917000" />
-      <workItem from="1671729017063" duration="3987000" />
+      <workItem from="1671729017063" duration="4377000" />
+      <workItem from="1671733407069" duration="1386000" />
+      <workItem from="1671780083085" duration="1614000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1671264366796</created>
@@ -179,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671730860654</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Modified showStatistics">
+      <created>1671733238732</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671733238732</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +201,7 @@
     <MESSAGE value="- [*] implement property&#10;- [*] implement animal hierarchy (first step - for five Organism)&#10;- [*] implement actions&#10;- [*] implement Randomizer&#10;- [*] implement factory &#10;- [*] implement services (workers)&#10;- [*] implements View" />
     <MESSAGE value="updated imports" />
     <MESSAGE value="Added OrganismTypeData annotation&#10;Modified OrganismCreator via using annotation&#10;Modified animals and plan classes&#10;Added config.yaml&#10;Not complete Modified Setting for using yaml file with settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added OrganismTypeData annotation&#10;Modified OrganismCreator via using annotation&#10;Modified animals and plan classes&#10;Added config.yaml&#10;Not complete Modified Setting for using yaml file with settings" />
+    <MESSAGE value="Modified showStatistics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified showStatistics" />
   </component>
 </project>
