@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2841b09-e501-4cc6-98f5-d156370430e1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/ConsoleRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/ConsoleRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/entity/organism/animal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/DefaultSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/DefaultSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/Setting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/property/Setting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/services/GameWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/services/GameWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/view/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/aleev/island/view/ConsoleView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="a2841b09-e501-4cc6-98f5-d156370430e1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +108,7 @@
       <workItem from="1671714074146" duration="4917000" />
       <workItem from="1671729017063" duration="4377000" />
       <workItem from="1671733407069" duration="1386000" />
-      <workItem from="1671780083085" duration="1614000" />
+      <workItem from="1671780083085" duration="1925000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1671264366796</created>
@@ -189,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671733238732</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Modified showStatistics">
+      <created>1671781983033</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671781983033</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
